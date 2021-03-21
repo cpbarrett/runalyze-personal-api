@@ -1,4 +1,6 @@
 package Runalyze.PersonalAPI.Sleep.SleepData;
 
-public class SleepRepository {
+import org.springframework.data.repository.CrudRepository;
+
+public interface SleepRepository extends CrudRepository<Sleep, String> {
 }
